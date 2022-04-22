@@ -372,6 +372,9 @@ section{
 
 /*--------------------mobile responsive------------------*/
 @media screen and (max-width:600px) {
+  #main-header{
+    height: 40vh;
+  }
   #about-profile img{
     width:30% ;
     height:30% ;
