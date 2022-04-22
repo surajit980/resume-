@@ -351,7 +351,7 @@ section{
 /*--------------tablet responsive------------------*/
 @media screen and (max-width:900px) {
   #main-header{
-    height: 45vh;
+    height: 60vh;
   }
   #about-profile{
     top:-20%;
