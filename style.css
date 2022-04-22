@@ -351,7 +351,7 @@ section{
 /*--------------tablet responsive------------------*/
 @media screen and (max-width:900px) {
   #main-header{
-    height: 35vh;
+    height: 45vh;
   }
   #about-profile{
     top:-20%;
@@ -372,6 +372,13 @@ section{
 
 /*--------------------mobile responsive------------------*/
 @media screen and (max-width:600px) {
+  #about-profile img{
+    width:30% ;
+    height:30% ;
+  }
+  #about-profile{
+    top:-50%;
+  }
   #drop-down{
     position: absolute;
     left: 75%;
@@ -409,9 +416,13 @@ section{
   .body-c{
     left: 15%;
     margin-bottom: 30px;
-    width: 340px;
+    width: 300px;
   }
   .body-c:nth-child(2n){
-    left: 20%;
+    left: 15%;
+  }
+  .c-logo img{
+    width: 50px;
+    height: 50px;
   }
 }
